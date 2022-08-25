@@ -1,14 +1,18 @@
 {
-  "name": "react-native-camera",
+  "name": "@vicary/react-native-camera",
   "description": "A Camera component for React Native. Also reads barcodes.",
-  "version": "4.2.1",
+  "version": "4.3.1",
   "author": "Lochlan Wansbrough <lochie@live.com> (http://lwansbrough.com)",
+  "contributors": [
+    "Vicary A. <vicary.archangel@member.mensa.org>"
+  ],
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/react-native-camera",
     "logo": "https://opencollective.com/opencollective/logo.txt"
   },
   "dependencies": {
+    "deprecated-react-native-prop-types": "^2.2.0",
     "prop-types": "^15.6.2"
   },
   "devDependencies": {
@@ -28,7 +32,7 @@
     "eslint": "^7.8.0",
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react": "^7.31.0",
     "eslint-plugin-react-native": "^3.2.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.13",
